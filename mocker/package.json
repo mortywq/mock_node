@@ -1,0 +1,51 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-watch index.js",
+    "ngrok": "cd ../backup/ngrok/ && ./ngrok -config ngrok.cfg start web",
+    "eslint": "eslint ./src/ --fix"
+  },
+  "author": "Candy Yang <candy.yang@gaiaworks.cn>",
+  "contributors": [
+    "Jimmy Zhang 张志科 <jimmy.zhang@gaiaworks.cn>"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co-busboy": "^1.3.1",
+    "http-proxy": "^1.16.2",
+    "koa": "2.3.0",
+    "koa-body": "2.5.0",
+    "koa-body-parser": "^1.1.2",
+    "koa-cors": "0.0.16",
+    "koa-logger": "3.1.0",
+    "koa-router": "7.2.1",
+    "koa-router-autoload": "^1.2.2",
+    "koa-router-decors": "^1.1.1",
+    "koa-sleep": "^0.1.0",
+    "koa-static": "4.0.1",
+    "lodash": "^4.12.0",
+    "dayjs": "^1.8.19",
+    "node-fetch": "^1.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-eslint": "8.0.1",
+    "babel-plugin-module-resolver": "2.7.1",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "babel-register": "^6.26.0",
+    "babel-watch": "^2.0.7",
+    "eslint-plugin-node": "5.2.1",
+    "husky": "^0.12.0",
+    "node-dev": "^3.1.1",
+    "request": "2.85.0",
+    "request-promise-native": "1.0.5"
+  }
+}

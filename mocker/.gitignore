@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+dest/
+package-lock.json
+test-result/
+npm-debug.log
+npm-debug.log*
+src/public/temp/
