@@ -8,9 +8,9 @@
     "ngrok": "cd ../backup/ngrok/ && ./ngrok -config ngrok.cfg start web",
     "eslint": "eslint ./src/ --fix"
   },
-  "author": "Candy Yang <candy.yang@gaiaworks.cn>",
+  "author": "wq",
   "contributors": [
-    "Jimmy Zhang 张志科 <jimmy.zhang@gaiaworks.cn>"
+    "wq"
   ],
   "license": "ISC",
   "dependencies": {
